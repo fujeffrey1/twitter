@@ -1,0 +1,32 @@
+{
+  "name": "twitter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.2",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.10",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-dropzone": "^4.2.11",
+    "react-fade-in": "^0.1.6",
+    "react-images-upload": "^1.2.0",
+    "react-modal-image": "^2.1.4",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-scroll-up-button": "^1.5.11",
+    "redux": "^4.0.0",
+    "redux-form": "^7.3.0",
+    "redux-persist": "^5.10.0",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

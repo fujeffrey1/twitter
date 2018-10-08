@@ -1,0 +1,125 @@
+/* Searchbar */
+
+.search-bar .icon {
+  background: url('/images/search.png') no-repeat;
+  background-size: contain;
+  width: 20px;
+}
+
+.index .search-bar {
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.search-bar span {
+  overflow: hidden;
+}
+
+/* Posts */
+
+.post-img {
+  height: auto;
+  width: 50px;
+  margin: auto 5px;
+}
+
+.media {
+  margin: 5px 0px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f4f4f4;
+  color: #000000;
+  overflow: hidden;
+}
+
+.media:hover {
+  background-color: #cccccc;
+}
+
+.media#original:hover {
+  background-color: #cccccc !important;
+}
+
+.post-active:hover {
+  background-color: #f4f4f4;
+  cursor: default;
+}
+
+.media a {
+  color: #000000;
+}
+
+.media-body {
+  overflow: hidden;
+}
+
+.media-body p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.media-body .active p {
+  word-break: break-word;
+}
+
+.media-footer {
+  font-size: 0.8rem;
+  text-indent: 1rem;
+}
+
+small {
+  display: inline-block;
+}
+
+/* PostsNew */
+
+.dropzone {
+  width: 100%;
+  height: 20%;
+  border-width: 2px;
+  border-color: rgb(102, 102, 102);
+  border-style: dashed;
+  border-radius: 5px;
+  color: #636c72;
+  background: #fff;
+  text-align: center;
+  vertical-align: bottom;
+  margin-bottom: 1rem;
+}
+
+.dropzone:hover {
+  cursor: pointer;
+  background: #91e088;
+}
+
+/* PostsMedia */
+
+.carousel {
+  width: 100%;
+  height: 150px;
+  overflow: auto;
+  white-space: nowrap;
+  background: #ffffff;
+}
+
+.carousel .slide {
+  display: inline-block;
+  margin: 5px;
+}
+
+.slide img {
+  height: 140px;
+  width: auto;
+}
+
+#react-modal-image-img {
+  height: 75% !important;
+}
+
+@media (max-width: 768px) {
+  .col-9 .break {
+    width: 100%;
+  }
+}

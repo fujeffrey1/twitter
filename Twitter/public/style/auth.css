@@ -1,0 +1,35 @@
+/* Auth */
+
+.box {
+  margin: 70px;
+}
+
+.box h2 {
+  margin: 40px 20px;
+  color: #ffffff;
+  overflow: hidden;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box-form {
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+#register-image {
+  background: url('/images/notebook.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#login-image {
+  background: url('/images/hello.png') no-repeat right center;
+  background-size: cover;
+  min-height: 300px;
+}
+
+@media (max-width: 768px) {
+  .break {
+    width: 100%;
+  }
+}
